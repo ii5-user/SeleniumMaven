@@ -1,58 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="4" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16702" started-at="2016-11-04T07:23:25Z" finished-at="2016-11-04T07:23:42Z">
+  <suite name="Default suite" duration-ms="7768" started-at="2016-11-04T11:41:15Z" finished-at="2016-11-04T11:41:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16702" started-at="2016-11-04T07:23:25Z" finished-at="2016-11-04T07:23:42Z">
-      <class name="MavenDemo.Testfacebook2">
-        <test-method status="FAIL" signature="Test2()[pri:0, instance:MavenDemo.Testfacebook2@457e2f02]" name="Test2" duration-ms="1" started-at="2016-11-04T12:53:34Z" finished-at="2016-11-04T12:53:34Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at MavenDemo.Testfacebook2.Test2(Testfacebook2.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:MavenDemo.Testfacebook2@457e2f02]" name="TestFireFox" duration-ms="7894" started-at="2016-11-04T12:53:34Z" finished-at="2016-11-04T12:53:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestFireFox -->
-      </class> <!-- MavenDemo.Testfacebook2 -->
+    <test name="Default test" duration-ms="7768" started-at="2016-11-04T11:41:15Z" finished-at="2016-11-04T11:41:22Z">
       <class name="MavenDemo.Testfacebook">
-        <test-method status="FAIL" signature="Test2()[pri:0, instance:MavenDemo.Testfacebook@1b604f19]" name="Test2" duration-ms="9" started-at="2016-11-04T12:53:25Z" finished-at="2016-11-04T12:53:25Z">
+        <test-method status="FAIL" signature="Test2()[pri:0, instance:MavenDemo.Testfacebook@4501b7af]" name="Test2" duration-ms="11" started-at="2016-11-04T17:11:15Z" finished-at="2016-11-04T17:11:15Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at MavenDemo.Testfacebook.Test2(Testfacebook.java:22)
+	at MavenDemo.Testfacebook.Test2(Testfacebook.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -83,11 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:MavenDemo.Testfacebook@1b604f19]" name="TestFireFox" duration-ms="8781" started-at="2016-11-04T12:53:25Z" finished-at="2016-11-04T12:53:34Z">
+        <test-method status="PASS" signature="TestFireFox()[pri:0, instance:MavenDemo.Testfacebook@4501b7af]" name="TestFireFox" duration-ms="7742" started-at="2016-11-04T17:11:15Z" finished-at="2016-11-04T17:11:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFireFox -->
       </class> <!-- MavenDemo.Testfacebook -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
