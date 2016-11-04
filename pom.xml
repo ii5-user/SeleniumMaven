@@ -15,8 +15,8 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				    <version>3.5.1</version>
-				
+				<version>3.5.1</version>
+
 				<configuration>
 					<source>${jdk.level}</source>
 					<target>${jdk.level}</target>
@@ -29,6 +29,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
+						git
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
@@ -50,10 +51,15 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-server</artifactId>
-    <version>3.0.1</version>
-</dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>3.0.1</version>
+		</dependency>
 	</dependencies>
 
 </project>
