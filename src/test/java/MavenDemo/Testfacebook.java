@@ -10,10 +10,10 @@ public class Testfacebook {
 	@Test
 	public void TestFireFox(){
 
-		System.setProperty("webdriver.ie.driver", "C:\\Program Files (x86)\\Jenkins\browserdriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\browserdriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
-		System.out.println("Applsssiccaghththtion titlgghe is y============="+driver.getTitle());
+		System.out.println("Applsssiccaghtddehthtion titlgghe is y============="+driver.getTitle());
 		driver.quit();
 
 	}
